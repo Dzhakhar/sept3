@@ -1,0 +1,15 @@
+export const categoryTags: { label: string; value: string }[] = [
+  "TPS",
+  "Adventure",
+  "Horror",
+  "Batman",
+  "Philanthropist",
+  "Orphan",
+  "Movie",
+  "Thriller",
+  "Spy",
+  "Comedy",
+  "Sport",
+  "Drama",
+  "Action",
+].map((tag: string) => ({ label: tag, value: tag }));

@@ -1,0 +1,8 @@
+@layer tailwind-base, primereact, tailwind-utilities;
+
+/* IMPORTANT: In "styled" mode you must add the PrimeReact Theme here. Do NOT include in "unstyled" mode */
+@import "primereact/resources/primereact.min.css" layer(primereact);
+
+@layer tailwind-utilities {
+  @tailwind utilities;
+}
